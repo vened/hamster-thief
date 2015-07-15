@@ -6,6 +6,22 @@ body{
 }
 body{
 	position: relative;
+	font-family: 'Arial';
+	font-size: 17px;
+}
+a{
+	color: #fff;
+	text-decoration: underline;
+	outline: none;
+
+	&:hover{
+		text-decoration: none;
+	}
+}
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 .body-bg{
 	position: fixed;
@@ -26,14 +42,136 @@ body{
 }
 .home{
 	top: 0;
-	left: 50%;
-	margin-left: -488px;
+	left: 0;
 	height: 652px;
-	width: 937px;
 	background-image: url("../images/home.png");
+}
+.logo{
+	position: absolute;
+	left: 50%;
+	top: 55px;
+	width: 180px;
+	height: 95px;
+	margin-left: 290px;
+	background: url("../images/logo_hamsterthief.png");
+}
+.video{
+	position: absolute;
+	left: 50%;
+	top: 80px;
+	width: 260px;
+	height: 531px;
+	margin-left: -130px;
+	padding: 66px 17.5px 0;
+	background: url("../images/iphone.png");
+}
+.video-container{
+	position: absolute;
+	left: 50%;
+	top: 146px;
+	z-index: 20;
+	margin-left: -112.5px;
+	width: 225px;
+	height: 400px;
+	background-color: red;
+	overflow: hidden;
+}
+.video-container-video{
+	display: block;
+	margin-left: -244px;
 }
 .foreground{
 	top: 40px;
 	height: 851px;
+	padding: 690px 0 0 0;
 	background-image: url("../images/bg-2.png");
 }
+.foreground-container{
+	padding: 0 0 35px;
+	color: #fff;
+	background-color: #000;
+}
+.store{
+	margin: 0 0 60px;
+	text-align: center;
+}
+.store-app-icon{
+	height: 60px;
+}
+.store-download{
+	display: inline-block;
+	margin-left: 10px;
+}
+.text{
+	width: 580px;
+	height: 200px;
+	margin: 0 auto 50px;
+	background: url("../images/writing.svg") no-repeat 0 0;
+	background-size: contain;
+}
+.facebook{
+	margin: 0 0 90px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: normal;
+
+	a{
+		font-weight: bold;
+		color: #39c;
+		text-decoration: underline;
+
+		&:hover{
+			color: #36bcf2;
+			text-decoration: none;
+		}
+	}
+}
+.foot-txt{
+	margin: 35px 0;
+	text-align: center;
+}
+@media screen and (max-width: 900px) {
+	.logo{
+		left: 50%;
+		top: 15px;
+		width: 180px;
+		height: 95px;
+		margin-left: -90px;
+		background-size: contain;
+	}
+	.video{
+		top: 130px;
+	}
+	.video-container{
+		top: 196px;
+	}
+	.home{
+		top: 50px;
+	}
+	.foreground{
+		top: 90px;
+	}
+}
+@media screen and (max-width: 630px) {
+	.text{
+		width: 430px;
+		height: 148px;
+	}
+	.facebook{
+		font-size: 24px;
+	}
+}
+@media all and (max-width: 530px) {
+	.text{
+		width: 280px;
+		height: 96px;
+	}
+	.facebook{
+		font-size: 18px;
+		margin-bottom: 60px;
+	}
+	body{
+		font-size: 15px;
+	}
+}
+//1.3488
