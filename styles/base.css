@@ -115,7 +115,8 @@ a {
   .facebook a {
     font-weight: bold;
     color: #39c;
-    text-decoration: underline; }
+    text-decoration: underline;
+    white-space: nowrap; }
     .facebook a:hover {
       color: #36bcf2;
       text-decoration: none; }
