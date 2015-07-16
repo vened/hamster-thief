@@ -76,8 +76,7 @@ a {
   overflow: hidden; }
 
 .video-container-video {
-  display: block;
-  margin-left: -244px; }
+  display: block; }
 
 .foreground {
   top: 40px;
