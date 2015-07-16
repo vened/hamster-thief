@@ -3,6 +3,7 @@ body{
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	background-color: #000;
 }
 body{
 	position: relative;
@@ -41,7 +42,7 @@ a{
 	width: 100%;
 	background-position: top center;
 	background-repeat: no-repeat;
-	//transition: all .02s;
+	//transition: all .005s;
 }
 .home{
 	top: 0;
