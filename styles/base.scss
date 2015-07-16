@@ -9,6 +9,11 @@ body{
 	position: relative;
 	font-family: 'Arial';
 	font-size: 17px;
+	background-color: #000;
+	background-image: url("../images/bg.jpg");
+	background-repeat: repeat-x;
+	background-position: top center;
+	background-attachment: fixed;
 }
 a{
 	color: #fff;
@@ -25,6 +30,7 @@ a{
 	box-sizing: border-box;
 }
 .body-bg{
+	display: none;
 	position: fixed;
 	top: 0;
 	left: 0;
