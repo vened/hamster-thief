@@ -35,8 +35,14 @@ a{
 	position: absolute;
 	width: 100%;
 	background-position: top center;
-	background-repeat: no-repeat;
+	//background-repeat: no-repeat;
 	//transition: all .005s;
+
+	background-attachment: fixed;
+	//background-position: 50% 0;
+	background-repeat: no-repeat;
+	//height: 450px;
+	//position: relative;
 }
 .home{
 	top: 0;
@@ -79,7 +85,7 @@ a{
 }
 .foreground{
 	top: 40px;
-	height: 851px;
+	//height: 851px;
 	padding: 690px 0 0 0;
 	background-image: url("../images/bg-2.png");
 }
