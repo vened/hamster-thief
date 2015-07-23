@@ -30,7 +30,6 @@ a {
   position: absolute;
   width: 100%;
   background-position: top center;
-  background-attachment: fixed;
   background-repeat: no-repeat; }
 
 .home {
